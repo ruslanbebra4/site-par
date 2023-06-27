@@ -1,0 +1,92 @@
+#contacts {
+  background-color: #161C24;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+  font-family: "Poppins", sans-serif;
+  border-top: 4px solid;
+  border-image: linear-gradient(45deg,#ff4ab3 8%,#7ff 24%,#fcd246 46%,#9ffe00 75%,#417efd 93%) 1;
+}
+
+.contact-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.contact-left h2 {
+  color: #fff;
+  line-height: 1rem;
+  font-size: 1.75rem;
+  padding: 10px 0;
+}
+
+.contact-left h3 {
+  padding: 10px 0;
+  color: #ababab;
+}
+
+.contact-left p {
+  padding: 10px 0;
+  color: #86754d;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact-left .btn {
+  display: block;
+  margin-top: 3%;
+  width: fit-content;
+  border: 1px solid #e6e6e6;
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #f4efec;
+  transition: background 0.5s;
+  font-family: __Inter_916fa9, __Inter_Fallback_916fa9, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.contact-left .btn:hover {
+  background-color: #222c38;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-right {
+  justify-content: center;
+}
+
+.contact-right iframe {
+  border-radius: 8px;
+  width: 30vw;
+  height: 40vh;
+  margin-top: 8%;
+}
+
+/* -------------  CSS for small-screen  ---------- */
+
+@media only screen and (max-width: 800px) {
+  .contact-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .info {
+    text-align: left;
+    padding-left: 5%;
+    
+  }
+
+  .contact-right iframe {
+    border-radius: 8px;
+    width: 80vw;
+    height: 40vh;
+    margin-top: 5%;
+    margin-left: 5vw;
+  }
+}

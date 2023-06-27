@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+.header {
+  width: 85%;
+  min-height: 120px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.content_box {
+  background-color: #fff;
+  padding: 0 5% 0 5%;
+  margin: 0;
+}
+
+.text_h2 {
+  text-align: center;
+  border-bottom: 1px solid #d6d6d6;
+  font-family: raleway-c;
+  font-weight: 400;
+  color: #696666;
+  font-size: 1.2rem;
+  padding-bottom: 0.6rem;
+}
+
+.page_container {
+  min-height: 22.2rem;
+  padding: 0.5px 1.5rem 1.8rem;
+  position: relative;
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+
+.text_nav {
+  padding-bottom: 0.6rem;
+  padding-top: 1rem;
+}
+
+/* -------------  CSS for small-screen  ---------- */
+
+@media only screen and (max-width: 600px) {
+}
+
+/* -------------  CSS for big-screen  ---------- */
+
+@media only screen and (min-width: 700px) {
+  .content_box {
+    margin: 0 13% 0 13%;
+  }
+}

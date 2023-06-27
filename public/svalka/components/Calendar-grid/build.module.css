@@ -1,0 +1,9 @@
+html, body {
+  font-family: outfit-c;
+}
+
+@font-face {
+  font-family: outfit-c;
+  src: url(../../../../fonts/outfit-regular.woff2);
+}
+
